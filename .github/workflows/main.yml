@@ -2,7 +2,7 @@ name: Run News Bot
 
 on:
   schedule:
-    - cron: '0 * * * *'  # 매시 정각 실행 (UTC 기준)
+    # - cron: '0 * * * *'  # 매시 정각 실행 (UTC 기준)
   workflow_dispatch:
 
 jobs:
